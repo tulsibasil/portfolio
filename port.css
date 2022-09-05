@@ -36,11 +36,11 @@ body{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
+  animation-name: spin;
 }
 
-/*
--webkit-animation:spin 4s linear infinite;
+
+/*-webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
 }
@@ -169,12 +169,17 @@ body{
 	right: 0;
 	
 }
-
+@font-face {
+  font-family: nk57;
+  src: url(nk57.ttf);
+}
 
 @font-face {
-  font-family: good-times;
-  src: url(good-times/goodtimes.otf);
+  font-family: textme;
+  src: url(textme.ttf);
 }
+
+
 
 /*.fullscreen{
   position: fixed;
@@ -209,6 +214,7 @@ body{
 #profilepic{
 	height: 200px;
 	width: 200px;
+	z-index: -1;
 /*	position: fixed;
 	margin-left: 42vw ;
 	margin-top: 0px;
@@ -295,8 +301,8 @@ body{
 }
 
 .writlinks{
-	font-family: good-times;
-	font-size: 35px;
+	font-family: textme;
+	font-size: 45px;
 	width: 50%;
 	display: block;
 	margin: auto;
@@ -312,16 +318,19 @@ body{
 
 
 
-/*
-.dot {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}*/
+.title{
+	font-family: textme;
+}
 
 
-
+.rideshare{
+		font-family: textme;
+	font-size: 45px;
+	width: 50%;
+	display: block;
+	margin: auto;
+	vertical-align: center;
+	top: 50%;
+}
 
 
