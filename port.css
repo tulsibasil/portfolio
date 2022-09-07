@@ -12,17 +12,25 @@ body{
   background: whitesmoke;
 }
 
-/*@keyframes spinning {
+
+
+@keyframes spinning {
     from { transform: rotate(360deg) }
     to { transform: rotate(0deg) }
   }
 
  .spin{
  	animation-name: spinning;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
- }*/
+    position: absolute;
+      top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+ }
 
 
 
@@ -36,20 +44,10 @@ body{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  animation-name: spin;
+  transform-origin: center center;
+
 }
 
-
-/*-webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}*/
 
 
 #circtext2{
@@ -320,11 +318,12 @@ body{
 
 .title{
 	font-family: textme;
+	font-size: 70px;
 }
 
 
 .rideshare{
-		font-family: textme;
+	font-family: textme;
 	font-size: 45px;
 	width: 50%;
 	display: block;
@@ -332,5 +331,6 @@ body{
 	vertical-align: center;
 	top: 50%;
 }
+
 
 
