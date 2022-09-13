@@ -1,32 +1,39 @@
-
+*{
+	background: whitesmoke;
+}
 
 .loop{
-	margin-left: 300px;
+	margin-left: 5vw;
+	display: flex;
+	flex-flow: row wrap;
 }
 
-.cnn{
-	margin-left: 500px;
-	width: auto;
 
-}
 
-.row {
+.column {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  
 }
-
 /* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
+.row {
   padding: 0 4px;
 }
 
-.column img {
+.row img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 10%; /* Will shrink image to 30% of its original width */
+  width: 12%; /* Will shrink image to 30% of its original width */
   height: auto;
+  border: black solid 1px;
+}
+
+.cnn{
+	margin-left: 5vw;
+	display: flex;
+	width: auto;
+
 }
 
 .column2 img {
@@ -34,59 +41,119 @@
   vertical-align: middle;
   width: 20%; /* Will shrink image to 30% of its original width */
   height: auto;
+  padding: 15px;
+  border: black solid 1px;
 }
 
 .row2 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+  /*display: flex;
+  flex-wrap: wrap;*/
+ /* padding: 0 4px;*/
 }
 
 /* Create two equal columns that sits next to each other */
 .column2 {
-  flex: 50%;
-  padding: 0 4px;
+
+  /*flex: 50%;*/
+  /*padding: 0 4px;*/
 }
 
-
-#backhome{
-	position: absolute;
-    top: 0;
-    right: 0;
-}
 
 @font-face {
   font-family: nk57;
   src: url(nk57.ttf);
 }
 
+@font-face {
+  font-family: textme;
+  src: url(textme.ttf);
+}
+
 .title{
-	font-family: nk57;
+	font-family: textme;
+	padding: 0;
+	margin: 0;
+
+	height: 95vh;
+	width: 13vw;
+	 text-align:left;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+
 }
 
-#video{
-	display: inline;
-	width: 50px;
-	height: auto;
+.sideways{
+	white-space: nowrap;
+    font-size: 7vw;
+    padding: 5px;
+    background: whitesmoke;
+    /*font-size: calc(30px+10vw)*/
+    /*margin-top: 25%;
+    margin-left: 5%;*/
+    border: black solid 1px;
+    transform: translate(-1.2%, 0) rotate(270deg);
 }
 
-
-.vector{
-	display: inline-block;
-	width: 60%;
-	height: auto;
-}
 
 .wholevector{
 	display: flex;
-	align-items: flex-end;
-	justify-content: flex-end;
+	justify-content: space-between;
+	/*width: 83vw;*/
 }
 
+
+
+.vector{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-basis: auto;
+	height: auto;
+	margin-left: 10vw;
+}
+
+
+#video{
+	margin-left: 5vw;
+}
 
 /*flexbox*/
 /*create a wrapper that contains both the video and the pics. set that to display: flex. */
 
+#backhome{
+	position: sticky;
+	float: right;
+	top: 0;
+}
+
+.massive{
+	margin: 0;
+	padding: 0;
+	width: 87vw;
+	float: right;
+}
+
+.journal{
+	display: flex;
+    justify-content: space-around;
+}
+
+.journal img{
+	width: 30%;
+}
+
+
+.blob{
+	margin-left: 5vw;
+	width: 30%;
+}
+
+.blobcontain{
+	display: flex;
+    justify-content: space-around;
+}
 
 
 
