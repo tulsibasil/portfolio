@@ -15,6 +15,11 @@ function openme(){
 	window.open("about.html")
 }
 
+function openselect(){
+	window.open("select.html")
+}
+
+
 
 // when the mouse enters the button, hide all circle text and show correct circle text
 $("#div1").mouseenter(function(){
@@ -71,6 +76,9 @@ $("#profilepic").mouseleave(function(){
 })
 
 
+ $("document").ready( function () {
+        alert("Open in FULL SCREEN. Hover on circles to see what they lead you to. :)");
+    }); 
 
 
 
