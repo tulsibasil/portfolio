@@ -421,9 +421,19 @@ body{
 	font-family: nk57;
 	font-size: 2vw;
 	height: auto;
+	margin-top: 2vw;
 }
 
 .agnesreview{
+	width: 45vw;
+	height:  auto;
+	border: black solid 1px;
+	margin-left: 2vw;
+	padding: 1vw;
+	display: flex;
+}
+
+.andrewreview{
 	width: 45vw;
 	height:  auto;
 	border: black solid 1px;
