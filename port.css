@@ -448,5 +448,12 @@ body{
 	align-items: baseline;
 }
 
+.loopstrat{
+	display: flex;
+	justify-content: space-around;
+}
 
+hr{
+	border: solid black 0.5px;
+}
 
