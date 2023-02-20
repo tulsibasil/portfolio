@@ -145,14 +145,22 @@
 }
 
 
-.blob{
-	margin-left: 5vw;
-	width: 30%;
+.misc{
+	display: flex;
+  justify-content: space-around;
+  margin-left: 2vw;
 }
 
-.blobcontain{
-	display: flex;
-    justify-content: space-around;
+.miscrow {
+  padding: 5 5px;
+}
+
+.miscrow img {
+  margin-top: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 30%; /* Will shrink image to 30% of its original width */
+  height: auto;
 }
 
 .kahlil{

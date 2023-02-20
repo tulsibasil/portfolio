@@ -459,3 +459,37 @@ hr{
 	border: solid black 0.5px;
 }
 
+.auximg{
+	display: flex;
+	justify-content: space-between;
+  margin-left: 2vw;
+}
+
+.auxrow {
+  padding: 5 5px;
+}
+
+.auxrow img {
+  margin-top: 10px;
+  margin-right: 50px;
+  vertical-align: middle;
+  width: 45%; /* Will shrink image to 30% of its original width */
+  height: auto;
+  border: black solid 1px;
+}
+
+.auxcolumn {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  
+}
+
+.aux{
+	margin-left: 2vw;
+}
+
+h1{
+	margin-left: 2vw;
+}
+
