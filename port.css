@@ -371,11 +371,11 @@ body{
 
 
 .massive{
-	margin-top: 5vw;
-	margin-bottom: 2vw;
+	margin-top: 3vw;
+	margin-bottom: 1vw;
 	padding-left: 4px;
-	margin-right: 10px;
-	width: 87vw;
+	margin-right: 45px;
+	width: 80vw;
 	float: right;
 	background: white;
 	border: black dashed 5px;
@@ -461,7 +461,7 @@ body{
 }
 
 hr{
-	border: solid black 0.5px;
+	border: solid black 1.5px;
 }
 
 .auximg{
@@ -502,7 +502,7 @@ h1{
 	margin-left: 13vw;
 	margin-top: 1vw;
 	font-family: textme;
-	font-size: 40px;
+	font-size: 30px;
 	border: solid black 3px;
 	background: blue;
 	position: fixed;

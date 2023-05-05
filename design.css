@@ -1,7 +1,7 @@
 
 
 body{
-	background: whitesmoke;
+	background: grey;
 }
 
 .loop{
@@ -135,8 +135,9 @@ body{
 .massive{
 	margin-top: 2vw;
 	margin-bottom: 1vw;
+	margin-right: 3vw;
 	padding: 0;
-	width: 87vw;
+	width: 80vw;
 	float: right;
 	background: white;
 	border: black dashed 5px;
