@@ -499,6 +499,34 @@ h1{
 	margin-left: 2vw;
 }
 
+.jugimg{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  margin-left: 2vw;
+}
+
+.jugrow {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+  padding: 5 5px;
+}
+
+.jugcolumn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  
+}
+
+.jugrow img {
+	border: black solid 1px;
+	margin-top: 5px;
+}
+
 .anchor{
 	margin-left: 13vw;
 	margin-top: 1vw;
